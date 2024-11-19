@@ -8,7 +8,7 @@
 using namespace std;
 
 int getSecondLargest(vector<int> &arr) {
-    int largest = arr[0], secondLargest = INT_MIN;
+    int largest = -1, secondLargest = -1;
 
     for(int i = 1; i < arr.size(); i++) {
         if(arr[i] > largest) {
