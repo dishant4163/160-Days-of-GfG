@@ -28,6 +28,8 @@ vector<int> findMajority(vector<int>& arr) {
     }
 
     vector<int> ans;
+    cnt1 = 0;
+    cnt2 = 0;
     for(int i=0; i < n; i++) {
         if(el1 == arr[i]) cnt1++;
         if(el2 == arr[i]) cnt2++;
