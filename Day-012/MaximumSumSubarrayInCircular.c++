@@ -6,8 +6,8 @@
 using namespace std;
 
 int circularSubarraySum(vector<int> &arr) {
-    int totalSum = 0, maxSum = 0, minSum = 0;
-    int curMaxSum = arr[0], curMinSum = arr[0];
+    int totalSum = 0, curMaxSum = 0, curMinSum = 0;
+    int maxSum = arr[0], minSum = arr[0];
 
     for(int i = 0; i < arr.size(); i++) {
 
