@@ -21,7 +21,7 @@ vector<int> getLPSArr(string& pat) {
             i++;
         }
         else if(pat[i] != pat[len]) {
-            if(len = 0) {
+            if(len != 0) {
                 len = lps[len - 1];
             } else {
                 lps[i] = 0;
