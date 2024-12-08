@@ -49,7 +49,7 @@ bool areRotations(string& s1, string& s2) {
         if(j == m) return true;
 
         else if(i < n && pat[j] != txt[i]) {
-            if(j == 0) {
+            if(j != 0) {
                 j = lps[j - 1];
             } else {
                 i++;
