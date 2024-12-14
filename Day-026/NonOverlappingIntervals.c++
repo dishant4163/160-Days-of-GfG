@@ -2,7 +2,7 @@
 
 
 // Problem-Link->
-//   
+// https://www.geeksforgeeks.org/batch/gfg-160-problems/track/sorting-gfg-160/problem/non-overlapping-intervals  
 
 
 
@@ -15,7 +15,7 @@ bool compare(vector<int>& a, vector<int>& b) {
 
 
 int minRemoval(vector<vector<int>> &intervals) {
-    //sorting the interals acc. to End time
+    //sorting the interals acc. to minimum End time
     sort(intervals.begin(), intervals.end(), compare);
 
     int cnt = 0, lastEndTime = intervals[0][1];
