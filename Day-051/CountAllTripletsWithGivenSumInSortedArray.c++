@@ -2,7 +2,7 @@
 
 
 // Problem-Link->
-// 
+// https://www.geeksforgeeks.org/batch/gfg-160-problems/track/two-pointer-technique-gfg-160/problem/count-all-triplets-with-given-sum-in-sorted-array
 
 
 
