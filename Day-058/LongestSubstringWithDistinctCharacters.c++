@@ -1,6 +1,9 @@
 // Longest Substring With Distinct Characters
 
 
+// Problem-Link->
+// https://www.geeksforgeeks.org/batch/gfg-160-problems/track/two-pointer-technique-gfg-160/problem/longest-distinct-characters-in-string5848
+
 
 #include<bits/stdc++.h>
 using namespace std;
