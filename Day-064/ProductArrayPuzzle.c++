@@ -3,7 +3,7 @@
 
 
 // Problem-Link->
-//    
+// https://www.geeksforgeeks.org/batch/gfg-160-problems/track/prefix-sum-gfg-160/problem/product-array-puzzle4525   
 
 
 #include<bits/stdc++.h>
