@@ -1,4 +1,4 @@
-// Count all K Sum Paths in Binary Tree
+// Count all K Sum Paths in Binary Tree / K Sum Paths
 
 
 // Problem-Link->  
@@ -33,7 +33,7 @@ int helperCntPath(Node* root, int k, int curSum, unordered_map<int, int> &preSum
 
     // The count of (curSum − k) gives the number of paths 
     // with sum k up to the current node
-    pathCnt = preSumMP[curSum - k];
+    pathCnt += preSumMP[curSum - k];
 
     //Add the current into preSumMap
     preSumMP[curSum]++;
