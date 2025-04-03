@@ -40,7 +40,7 @@ vector<int> jobSequencing(vector<int> &deadline, vector<int> &profit) {
     }
 
     return ans;
-}[]
+}
 
 
 
