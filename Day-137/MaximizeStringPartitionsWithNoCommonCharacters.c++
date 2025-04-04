@@ -1,7 +1,7 @@
 // Maximize String Partitions with No Common Characters
 
 
-// Problem-Link->     
+// Problem-Link->  https://www.geeksforgeeks.org/batch/gfg-160-problems/track/greedy-gfg-160/problem/minimum-platforms-1587115620   
 
 
 #include<bits/stdc++.h>
