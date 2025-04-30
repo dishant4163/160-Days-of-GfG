@@ -40,7 +40,7 @@ class Solution {
 
 
 
-/* // Approach 2 using map
+// Approach 2 using map
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -81,11 +81,13 @@ class Solution {
 }
 
 
-*/
+
 
 
 // Key Difference
 
 //  Arrays use .length (no parentheses) to get the size of the array.
 //  Strings use .length() (with parentheses) because it's a method.
+//  String: Immutable (unchangeable). Every time you modify it, a new String object is created.
 
+//  StringBuilder: Mutable (changeable). It's more efficient when you need to modify or append strings repeatedly.
